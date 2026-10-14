@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Unzip project
-        run: unzip -q -o .github/workflows/E_PRIME_XXX.zip -x ".github/*"
+        run: unzip -q -o .github/workflows/E_PRIME_XXX_repo_ready.zip -x ".github/*"
 
       - name: Set up JDK 17
         uses: actions/setup-java@v5
